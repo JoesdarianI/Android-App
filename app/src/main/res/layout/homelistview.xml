@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/imageVIew"
+
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:padding="14sp"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:padding="2dp"
+            android:gravity="top|left"
+            android:drawableLeft="@drawable/ic_baseline_star_rate_24"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="8dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/fPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+            android:drawableTint="@color/SpringGreen"
+            android:layout_marginTop="6dp"
+            android:padding="4dp"
+            android:textColor="@color/SpringGreen"
+            android:textSize="10dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
